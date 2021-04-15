@@ -13,3 +13,42 @@ If the second option is better, the program will output to the user "Option 2 is
 If both option one and option two are equal, the program will output to the user "Option 1 and Option 2 pays the same."
 
 """
+
+
+
+
+
+
+"""
+
+# option1
+
+    return 100 * 10
+
+# option2
+
+    totalMoney = 1
+    list1 = []
+
+    loop 10 times
+        Add totalMoney to list1
+        totalMoney *= 2
+    
+    sum = sum of list
+    return sum
+
+# main
+
+    money1 = option1
+    money2 = option2
+
+    if money1 > money2
+        "Option 1 is better."
+    if money1 == money2
+        "Option 1 and Option 2 pays the same."
+    else
+        "Option 2 is better."
+
+main
+
+"""
