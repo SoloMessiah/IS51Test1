@@ -15,10 +15,6 @@ If both option one and option two are equal, the program will output to the user
 """
 
 
-
-
-
-
 """
 
 # option1
@@ -52,3 +48,42 @@ If both option one and option two are equal, the program will output to the user
 main
 
 """
+
+
+def option1():
+
+    return 100 * 10
+
+
+def option2():
+
+    totalMoney = 1
+    list1 = []
+
+    for i in range(0, 10):
+        list1.append(totalMoney)
+        totalMoney *= 2
+
+    # print(list1)
+
+    totalPay = sum(list1)
+    return totalPay
+
+
+def main():
+
+    results = ""
+    money1 = option1()
+    money2 = option2()
+
+    if money1 > money2:
+        results = "Option 1 is better."
+    if money1 == money2:
+        results = "Option 1 and Option 2 pays the same."
+    else:
+        results = "Option 2 is better."
+
+    print(results)
+
+
+main()
